@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <div> 
       <SafeEnviroment/>
       <PageTitle 
-        title={"Conheça os profissionais"}
+        title={"Conheça os profissionais disponíveis"}
         subtitle={'Preencha seu endereço e veja todos os profissionais da sua localidade'}
       />
     </div>
