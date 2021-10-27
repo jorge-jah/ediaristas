@@ -1,0 +1,17 @@
+import { styled } from '@mui/material/styles';
+
+export const PageTitleContainer = styled('div')`
+    text-align:center;
+    margin: ${({ theme }) => props.theme.spacing(5) + ' ' + 0}; /*1 equivale 8, então 2 equivale a 24px*/ 
+`;
+
+export const PageTitleStyled = styled('h2')`
+    margin: 0;
+    
+    color: ${({theme}) => theme.pallete.primary.main};
+    font-weight: 600;
+
+    ${({ }) => theme.breakpoints.down('md')}{
+        font-size: ${({theme }) => theme.typography.body1.fontSize};
+    }; 
+`;
